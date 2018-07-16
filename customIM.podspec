@@ -9,5 +9,5 @@
       s.platform     = :ios, "9.0"
       s.frameworks   = "UIKit" #支持的框架
       s.source       = { :git => "https://github.com/cryandsmile/customIM.git", :tag => "#{s.version}" }
-      s.source_files  = '*'
+      s.source_files  = 'source/*.swift'
    end
