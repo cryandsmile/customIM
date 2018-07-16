@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
       s.swift_version = "4.1"
       s.frameworks   = "UIKit" #支持的框架
       s.source       = { :git => "https://github.com/cryandsmile/customIM.git", :tag => "#{s.version}" }
-      s.source_files  = '*.{h,m,swift}'
+      s.source_files  = 'customIM/*'
    end
