@@ -10,5 +10,5 @@
       s.swift_version = "4.1"
       s.frameworks   = "UIKit","AVFoundation","Foundation" #支持的框架
       s.source       = { :git => "https://github.com/cryandsmile/customIM.git", :tag => "#{s.version}" }
-      s.source_files  = 'source/**/*.{h,m,swift,bundle}'
+      s.source_files  = 'source/*/*'
    end
