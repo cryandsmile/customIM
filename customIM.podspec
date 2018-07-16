@@ -7,7 +7,8 @@
       s.license      = 'MIT'
       s.author       = { "cryandsmile" => "616927339@qq.com" }
       s.platform     = :ios, "9.0"
-      s.frameworks   = "UIKit" #支持的框架
+      s.swift_version = "4.1"
+      s.frameworks   = "UIKit","AVFoundation","Foundation" #支持的框架
       s.source       = { :git => "https://github.com/cryandsmile/customIM.git", :tag => "#{s.version}" }
-      s.source_files  = 'source/*.swift'
+      s.source_files  = 'source/**/*.{h,m,swift,bundle}'
    end
